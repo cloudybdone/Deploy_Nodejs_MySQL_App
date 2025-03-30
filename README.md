@@ -93,6 +93,7 @@ sudo mysql_secure_installation
 ```bash
 sudo mysql -u root -p
 ```
+![Description of Image](Screenshot from 2025-03-30 10-13-12.png)
 
 ```sql
 CREATE DATABASE practice_app;
@@ -114,6 +115,10 @@ INSERT INTO users (name, email) VALUES
 
 EXIT;
 ```
+![Description of Image](Screenshot from 2025-03-30 10-14-12.png)
+![Description of Image](Screenshot from 2025-03-30 10-14-12.png)
+![Description of Image](Screenshot from 2025-03-30 10-16-00.png)
+
 
 ## Part 3: systemd Configuration
 
