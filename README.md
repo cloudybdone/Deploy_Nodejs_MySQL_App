@@ -210,4 +210,13 @@ sudo reboot
 sudo systemctl status node-mysql-app.service
 curl http://localhost:3000/health
 ```
+## License
 
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+
+## Author
+
+**Mohammed Salehuzzaman**\
+ Sr.DevOps Engineer\
+[GitHub](https://github.com/cloudybdone)
