@@ -4,37 +4,32 @@
 ## Overview
 This project demonstrates how to deploy a simple Node.js application with a MySQL database on a Linux server, managed as a systemd service. The application includes basic API endpoints and is configured to start automatically on boot and restart on crashes.
 
-As a DevOps Engineer, this setup fulfills the following requirements:
 
-A Node.js API with:
+As a DevOps engineer, this setup fulfills the following requirements:
 
-Connection to a MySQL database
+### A Node.js API with:
+- Connection to a MySQL database
+- `/health` endpoint for database connection status
+- `/users` endpoint to retrieve users from the database
 
-/health endpoint for database connection status
+### A MySQL Database (`practice_app`) with:
+- `users` table
+- Sample data for testing
 
-/users endpoint to retrieve users from the database
+### A systemd Service that:
+- Starts on system boot
+- Restarts on application crash
+- Runs under a non-root user
+- Logs to the systemd journal
 
-A MySQL database (practice_app) with a users table and sample data
+## Prerequisites
+- Linux server (e.g., Ubuntu/Debian)
+- Node.js and npm installed
+- MySQL installed
+- Root or sudo access
 
-A systemd service that:
 
-Starts on system boot
 
-Restarts on application crash
-
-Runs under a non-root user
-
-Logs to the systemd journal
-
-Prerequisites
-
-Linux server (e.g., Ubuntu/Debian)
-
-Node.js and npm installed
-
-MySQL installed
-
-Root or sudo access
 
 
 
