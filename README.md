@@ -93,7 +93,7 @@ sudo mysql_secure_installation
 ```bash
 sudo mysql -u root -p
 ```
-![Description of Image](Screenshot from 2025-03-30 10-13-12.png)
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-13-12.png)
 
 ```sql
 CREATE DATABASE practice_app;
@@ -115,9 +115,9 @@ INSERT INTO users (name, email) VALUES
 
 EXIT;
 ```
-![Description of Image](Screenshot from 2025-03-30 10-14-12.png)
-![Description of Image](Screenshot from 2025-03-30 10-14-12.png)
-![Description of Image](Screenshot from 2025-03-30 10-16-00.png)
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-14-12.png)
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-16-00.png)
+
 
 
 ## Part 3: systemd Configuration
