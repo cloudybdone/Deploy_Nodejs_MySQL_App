@@ -23,7 +23,7 @@ As a DevOps engineer, this setup fulfills the following requirements:
 - Logs to the systemd journal
 
 ## Prerequisites
-- Linux server (e.g., Ubuntu/Debian)
+- Linux server (e.g: Ubuntu/Debian)
 - Node.js and npm installed
 - MySQL installed
 - Root or sudo access
