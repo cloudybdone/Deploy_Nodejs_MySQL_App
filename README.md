@@ -69,6 +69,9 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 ```
+![Image1](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-09-38.png)
+![Image2](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-10-34.png)
+![Image3](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-11-04.png)
 
 ## Part 2: Database Setup
 
