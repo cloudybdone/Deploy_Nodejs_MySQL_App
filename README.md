@@ -162,6 +162,7 @@ StandardError=journal
 [Install]
 WantedBy=multi-user.target
 ```
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-16-42.png)
 
 ### 4. Enable and Reload systemd
 
@@ -178,6 +179,7 @@ sudo systemctl enable node-mysql-app.service
 sudo systemctl start node-mysql-app.service
 sudo systemctl status node-mysql-app.service
 ```
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-17-23.png)
 
 ### 2. Test Endpoints
 
@@ -185,6 +187,9 @@ sudo systemctl status node-mysql-app.service
 curl http://localhost:3000/health
 curl http://localhost:3000/users
 ```
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-18-58.png)
+![Description of Image](https://github.com/cloudybdone/Deploy_Nodejs_MySQL_App/blob/main/Screenshot%20from%202025-03-30%2010-19-11.png)
+
 
 ### 3. Test Crash Recovery
 
